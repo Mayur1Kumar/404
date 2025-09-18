@@ -1,0 +1,16 @@
+.vmax_container.interstitial {
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  background: url(../assets/loading.png) no-repeat center;
+  width: 100%;
+  z-index: 50;
+}
+
+.vmax_container.interstitial.light {
+  background-color: white;
+}
+
+.vmax_container.interstitial.dark {
+  background-color: black;
+}
